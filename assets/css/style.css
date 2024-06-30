@@ -213,9 +213,7 @@ header ul li a:hover::after{
   min-height: 120vh;
 }
 
-.about{
-  
-}
+
 
 .about-titles{
   display: flex;
@@ -231,6 +229,8 @@ header ul li a:hover::after{
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .about-image{
@@ -245,6 +245,37 @@ header ul li a:hover::after{
   
   
 }
+
+.about-p{
+  margin-left: 2rem;
+  
+}
+.about-p p {
+  margin-top: 1rem;
+}
+
+.about-image_2{
+  margin-top: 5rem;
+  min-height: 400px;
+  min-width: 400px;
+  background-image: url(../img/perleen.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  
+  
+}
+
+
+.about-p_2{
+  margin-right: 2rem;
+  
+}
+.about-p_2 p {
+  margin-top: 1rem;
+}
+
 
 
 
