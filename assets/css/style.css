@@ -176,7 +176,7 @@ header ul li a:hover::after{
 /* Home */
 .section-home{
   background-color: var(--principal-bg-color);
-  min-height: 100vh;
+  min-height: 120vh;
 }
 
 .homep-homeimg{
@@ -196,7 +196,7 @@ header ul li a:hover::after{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 60vw;
+  width: 50vw;
 }
 
 .home-p1{
