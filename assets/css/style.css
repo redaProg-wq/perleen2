@@ -42,19 +42,45 @@ a {
   font-optical-sizing: auto;
 }
 
-.redbtn{
+.redbtn {
+  position: relative; /* Nécessaire pour les pseudo-éléments */
   background-color: var(--second-text-color);
   color: white;
-  border: 2px solid black; 
+  border: 2px solid black;
   font-size: 1.3rem;
   border-radius: 30px;
   padding: 1rem 3rem 1rem 3rem;
+  overflow: hidden; /* Pour éviter que l'effet dépasse les bords */
+  transition: color 2s; /* Transition de la couleur du texte */
+}
+
+.redbtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 0;
+  transform: translateX(-100%);
+  transition: transform 1s; /* Transition de l'animation de l'arrière-plan */
+}
+
+.redbtn:hover::before {
+  transform: translateX(0);
 }
 
 .redbtn:hover {
+  color: red; /* Couleur du texte change en rouge */
   cursor: pointer;
-
 }
+
+.redbtn span {
+  position: relative;
+  z-index: 1; /* Pour s'assurer que le texte est au-dessus du pseudo-élément */
+}
+
 
 .secondary {
   color: var(--second-text-color);
