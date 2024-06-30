@@ -56,6 +56,10 @@ a {
 
 }
 
+.secondary {
+  color: var(--second-text-color);
+}
+
 /* Header */
 
 header {
@@ -69,6 +73,7 @@ header {
   font-size: 1rem;
   line-height: 1.2rem;
   flex-basis: 60px;
+  border-bottom: 3px solid var(--second-text-color);
   box-shadow: var(--box-shadow);
 }
 
@@ -198,6 +203,48 @@ header ul li a:hover::after{
   color: var(--main-text-color);
   font-size: 4rem;
 }
+
+
+
+/*about */
+
+.section-about{
+  background-color: white;
+}
+
+.about{
+  min-height: 100vh;
+}
+
+.about-titles{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.about-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-image{
+  margin-top: 2rem;
+  min-height: 80vh ;
+  min-width: 20vw;
+  background-image: url(../img/food.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  
+  
+}
+
+
 
 
 /* mediaqueries */
