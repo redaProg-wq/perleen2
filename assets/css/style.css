@@ -72,7 +72,7 @@ a {
 }
 
 .redbtn:hover {
-  color: red; /* Couleur du texte change en rouge */
+  color: var(--second-text-color); /* Couleur du texte change en rouge */
   cursor: pointer;
 }
 
