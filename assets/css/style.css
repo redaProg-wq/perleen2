@@ -11,7 +11,7 @@ body {
 :root {
   --main-text-color: #2b2b44;
   --second-text-color: #ce1212;
-  --principal-bg-color: #e4dac4;
+  --principal-bg-color: #f8eeee;
   --box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
   rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
@@ -40,6 +40,10 @@ a {
 .playwrite{
   font-family: "Playwrite DE Grund", cursive;
   font-optical-sizing: auto;
+}
+
+.margin-top {
+  margin-top: 1rem;
 }
 
 .redbtn {
@@ -300,6 +304,77 @@ header ul li a:hover::after{
 }
 .about-p_2 p {
   margin-top: 1rem;
+}
+
+
+/*why*/
+
+.section-why{
+  background-color: var(--principal-bg-color);
+  min-height: 700px;
+}
+
+.why{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+
+}
+
+.box-red{
+  width: 400px;
+  height: 400px;
+  background-color: var(--second-text-color);
+  border: 2px solid black;
+  box-shadow: var(--box-shadow);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.box{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: var(--box-shadow);
+ margin-left: 1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+ padding: 1rem;
+
+}
+
+.fav-container{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--principal-bg-color);
+  color: var(--second-text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.fa-solid{
+ 
+  font-size: 2rem;
+}
+
+.fav-container:hover{
+
+background-color: var(--second-text-color);
+color: white;
+box-shadow: var(--box-shadow);
 }
 
 
