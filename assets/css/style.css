@@ -555,10 +555,11 @@ box-shadow: var(--box-shadow);
 }
 
 
-
+}
 
 @media screen and (min-width: 700px) {
   .header-mobile {
     display: none;
   }
+
 }
