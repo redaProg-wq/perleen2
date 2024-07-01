@@ -380,6 +380,26 @@ box-shadow: var(--box-shadow);
 }
 
 
+/* menu */
+
+.section-menu{
+  background-color: white;
+
+}
+
+.menu{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.menu h2{
+  margin-top: 2rem;
+}
+
+
 
 
 
