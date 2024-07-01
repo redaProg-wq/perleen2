@@ -318,6 +318,8 @@ header ul li a:hover::after{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 4rem;
 
 }
