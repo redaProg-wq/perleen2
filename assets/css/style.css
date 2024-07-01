@@ -90,6 +90,7 @@ a {
   color: var(--second-text-color);
 }
 
+
 /* Header */
 
 header {
@@ -414,7 +415,7 @@ box-shadow: var(--box-shadow);
   height: 250px;
   overflow: hidden;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: var(--box-shadow);
   background-repeat: no-repeat;
   background-size: cover;
@@ -425,7 +426,7 @@ box-shadow: var(--box-shadow);
 }
 
 .imgbox:hover{
-  scale: 1.1;
+  scale:0.95;
 }
 
 
