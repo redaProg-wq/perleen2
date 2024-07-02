@@ -7,6 +7,8 @@
     <!-- Style-->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
+    <!-- Scripts Jquery-->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Favicons -->
     <script
       src="https://kit.fontawesome.com/642ea75ff0.js"
@@ -210,4 +212,18 @@
   </body>
   <!--Scripts -->
   <script src="./assets/scripts/index.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('a[href^="#"]').on('click', function(event) {
+        event.preventDefault();
+        var target = this.hash;
+        var $target = $(target);
+        $('html, body').animate({
+          scrollTop: $target.offset().top
+        }, 1000, function() {
+          window.location.hash = target;
+        });
+      });
+    });
+  </script>
 </html>
