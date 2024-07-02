@@ -339,6 +339,8 @@ header ul li a:hover::after{
   align-items: center;
   padding: 1rem;
   font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .box{
@@ -353,6 +355,8 @@ header ul li a:hover::after{
  justify-content: space-around;
  align-items: center;
  padding: 1rem;
+ margin-top: 1rem;
+  margin-bottom: 1rem;
 
 }
 
