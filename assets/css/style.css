@@ -557,6 +557,8 @@ box-shadow: var(--box-shadow);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
  
 }
 
