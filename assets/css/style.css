@@ -432,6 +432,51 @@ box-shadow: var(--box-shadow);
 
 
 
+/*events */
+
+.section-events{
+  background-color:var(--principal-bg-color);
+
+}
+
+.events{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+
+.bigbox{
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 1.5rem;
+  transition: 0.2s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+   justify-content: center;
+  padding-left: 1rem;
+  color: white;
+  
+
+
+}
+
+.section-events p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+
 
 
 /* mediaqueries */

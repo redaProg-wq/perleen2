@@ -1,11 +1,13 @@
-console.log("hello");
+// variables
 
+
+// variables pour le menu mobile
 const iconeMenu = document.querySelector(".fa-bars"); // pour le menu mobile
 const menuMobile = document.querySelector(".div-menu-mobile"); // pour le menu mobile
 
 
 
-
+//variables pour le glissement du menu
 
 
 
